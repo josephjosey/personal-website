@@ -164,34 +164,6 @@ body {
 
 
 
-@media (max-width: 900px) {
-  .card {
-    width: 70%;
-  }
-  .title-col-1 {
-    text-align: center;
-    padding-right: 20%;
-  }
-  .image-black {
-    width: 90%;
-    padding-left: 25%;
-    padding-top: 5%
-}
-  .trading-image {
-    padding-bottom: 50px;
-  }
-  .section-heading{
-    padding-bottom: 50px;
-  }
-}
-@media (max-width: 760px) {
-  #services {
-    padding-left: 120px;
-  }
-  .skill {
-    padding-left: 70px;
-  }
-}
 /* services */
 
 * {
@@ -290,14 +262,4 @@ p {
     flex: 0 0 33.33%;
     max-width: 33.33%;
   }
-}
-@media (max-width: 480px) {
-  body {
-    align-items: center;
-    text-align: center;
-  }
-  .card {
-    width: 80%;
-  }
-
 }
