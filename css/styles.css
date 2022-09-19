@@ -291,3 +291,13 @@ p {
     max-width: 33.33%;
   }
 }
+@media (max-width: 480px) {
+  body {
+    align-items: center;
+    text-align: center;
+  }
+  .card {
+    width: 80%;
+  }
+
+}
