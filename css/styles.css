@@ -161,7 +161,14 @@ body {
 
 
 
+@media (max-width: 600px) {
+  body {
+    align-items: center;
+    text-align: center;
 
+  }
+
+}
 
 /* services */
 
@@ -261,11 +268,4 @@ p {
     flex: 0 0 33.33%;
     max-width: 33.33%;
   }
-}
-@@media (max-width: 480) {
-  body {
-    align-items: center;
-    text-align: center;
-  }
-
 }
