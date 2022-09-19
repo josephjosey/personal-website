@@ -148,7 +148,6 @@ body {
   font-size: .8em;
   color: grey;
 }
-
 .card__description {
   padding: 0 2em 2em;
   margin: 0;
@@ -262,4 +261,11 @@ p {
     flex: 0 0 33.33%;
     max-width: 33.33%;
   }
+}
+@@media (max-width: 480) {
+  body {
+    align-items: center;
+    text-align: center;
+  }
+
 }
